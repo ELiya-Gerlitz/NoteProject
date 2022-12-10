@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocumentProject1,2</title>
+    <script defer src="Project1.js"></script>
+    <link rel=stylesheet href="css2.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- glyph -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- glyph -->
+    <!-- googleF -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- googleF -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+</head>
+<body>
+<form> 
+    <div id="wrapper">
+    <h1>My Task Board</h1>
+    
+     <img id="notebookIMG" src="JB/notebook_paper2.png" width="70%">
+            <textarea required autofocus id="textarea" name="textarea" rows="3" cols="50" placeholder="Write your task details here."></textarea>
+   
+             <br>
+             <label for="date">Due date & time for task completion:</label>
+
+        <div id="ButtonWrapper">
+             <br>
+             <input required id="date" name="date" type="date" placeholder="last date for accomplishing the task- numbers only"/>
+             <input required id="time" name="time" type="time" placeholder="time: 00:00"/>
+        </div>
+             <br>
+          <div id="resetWrapper">
+             <input name="resetButton" type="reset" value="reset"/>
+             <input type="button" value="add task" name="addingButton" onclick="addNewObj()"></input>
+          </div>
+            
+    </div>
+
+    <!-- <input type="submit" value="submit"/> -->
+</form> 
+
+<div id="WhereTheHell" class="noteOuter">
+    
+
+</div>
+
+
+</body>
+</html>

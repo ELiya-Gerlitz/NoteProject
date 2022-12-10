@@ -1,0 +1,132 @@
+  h1{
+    font-family:'Rubik Distressed', cursive!important;
+    font-size: 70px !important;
+    color: crimson !important;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(68, 67, 67);
+
+  }
+  label{
+    color:crimson; 
+    font-size:24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+    text-shadow: 2px 2px 3px rgb(2, 2, 2);
+    text-align: center;
+    padding-left: 30%;
+    position: relative;
+    top: -150px;
+  }
+  body{
+      background-image: url(JB/vecteezy_cork-board-background-is-used-for-design-work_11468557_457.JPG);
+      z-index: 1;
+  }
+  #textarea,
+  #textarea::placeholder{
+    font-size: 20pt;
+    color: black;
+    background-color: inherit;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top:-150px;
+  }
+  #ButtonWrapper{
+      position:relative;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      top:-160px;
+      padding-left: 40%;
+      padding-right: auto;
+  }
+  #resetWrapper{
+    position:relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top:-165px;
+    padding-left: 43%;
+    padding-right: auto;
+  }
+  #notebookIMG{
+    background-color: initial;
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+    position: relative;
+    top: 10px;
+    height: 200px;
+  }
+  
+  #WhereTheHell{
+    display: flex;
+  }
+  .noteWrapper{
+    height: 200px;
+    z-index: 998;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-timing-function:ease
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .img{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+position:relative;
+top: -150px;
+margin-left: -25px;
+margin-right: -25px;
+
+  }
+  .noteSpan{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   text-align: center;
+   top: 5px;
+   /* background-color: rgba(165, 42, 42, 0.45); */
+   position: relative;
+   top: -326px;
+   left: 10px;
+   height: 130px;
+   width: 160px;
+   overflow-y: auto;
+  }
+  .XclearBtn{
+    position: relative;
+    top: -92px;
+    left: 190px;
+    z-index: 990;
+
+  }
+  .noteWrapper>button{
+    display:none;
+  }
+  .noteWrapper:hover>button{
+    display:block;
+  }
+  .dateSpan{
+    position:relative;
+    top: -332px;
+    font-family:'Pacifico', cursive;
+    font-size: medium;
+    color: brown;
+    padding-left: 54px;
+  }
+.timeSpan{
+  position:relative;
+  top: -312px;
+  font-family:'Pacifico', cursive;
+  font-size: medium;
+  color: brown;
+  /* padding-left: 40px;
+ padding-right: 10px; */
+ left: -83px;
+}
